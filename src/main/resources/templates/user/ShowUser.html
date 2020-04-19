@@ -1,0 +1,11 @@
+<html>
+
+<body>
+<span th:text="'Name: ' + ${user.name}"></span>
+<span th:text="'Email: ' + ${user.email}"></span>
+<td th:text="'Birthday: ' + ${#dates.format(user.dateOfBirth,'dd-MM-yyyy')}"></td>
+<span th:text="'copyright.. ' + ${copyright}"></span>
+
+
+</body>
+</html>
